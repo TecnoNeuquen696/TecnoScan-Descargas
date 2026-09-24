@@ -74,6 +74,7 @@ body{
 .preview-column{position:relative;min-width:0}
 .preview-note{position:absolute;z-index:3;left:8px;top:95px;margin:0;color:#dffaff;font-size:24px;font-style:italic;font-weight:500;line-height:1.08;text-align:center;transform:rotate(-8deg);text-shadow:0 0 7px #00cfff,0 2px 7px #000}
 .preview-note::after{display:block;width:86px;height:4px;margin:8px auto 0;border-radius:50%;content:"";background:var(--cyan);box-shadow:0 0 9px rgba(17,215,255,.6)}
+.preview-title{width:84%;margin:0 0 6px auto;color:var(--cyan);font-size:17px;font-weight:800;letter-spacing:.025em;text-align:center;text-shadow:0 0 9px rgba(17,215,255,.35)}
 .preview-shell{
   position:relative;width:84%;margin:0 0 0 auto;padding:5px;border:1px solid rgba(95,210,255,.86);border-radius:13px;background:#020b13;
   box-shadow:0 13px 30px rgba(0,0,0,.48),0 0 19px rgba(0,174,255,.1)
@@ -151,6 +152,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:14px;padding:8px 0}
   .features article:last-child{grid-column:1/-1}
   .showcase{grid-template-columns:1fr}
   .preview-note{display:none}
+  .preview-title{width:100%;margin:0 0 6px}
   .preview-shell{width:100%;margin:0}.laptop-base{width:96%;margin:-1px auto 0}
   .side-column{grid-template-columns:1fr 1fr}.author,.side-column .social-card,.side-column .whatsapp-card{grid-column:1/-1}
   .contact-row{grid-template-columns:1fr}
