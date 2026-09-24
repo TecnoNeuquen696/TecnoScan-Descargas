@@ -124,6 +124,19 @@ body{
 .social-card a{display:grid;gap:2px;place-items:center;min-height:63px;padding:5px 3px;border:1px solid rgba(17,215,255,.24);border-radius:9px;background:linear-gradient(180deg,rgba(18,51,69,.92),rgba(2,17,30,.98));text-decoration:none}
 .social-card b{font-size:9px}.social-card a>span:last-child{color:var(--muted);font-size:7.5px}
 
+.side-column .social-card{padding:6px 8px}
+.side-column .social-card h2{margin-bottom:4px}
+.side-column .social-card a{min-height:58px;padding:4px 2px}
+.side-column .social-3d{width:33px;height:33px}
+.side-column .social-3d svg{width:24px;height:24px}
+.side-column .whatsapp-card{grid-template-columns:auto 1fr;gap:7px;padding:7px 9px}
+.side-column .whatsapp-card .wa-copy h2{font-size:11px}
+.side-column .whatsapp-card .wa-copy p{font-size:8px;line-height:1.25}
+.side-column .whatsapp-card>a,
+.side-column .whatsapp-card>strong{grid-column:1/-1;text-align:center}
+.side-column .whatsapp-card>a{justify-self:center;padding:6px 8px}
+.side-column .whatsapp-card>strong{font-size:9px}
+
 footer{border-top:1px solid rgba(17,215,255,.2);background:#000813;color:#b8cbd5;font-size:10px}
 footer .wrap{display:flex;justify-content:space-between;gap:14px;padding:8px 0}
 
@@ -139,7 +152,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:14px;padding:8px 0}
   .showcase{grid-template-columns:1fr}
   .preview-note{display:none}
   .preview-shell{width:100%;margin:0}.laptop-base{width:96%;margin:-1px auto 0}
-  .side-column{grid-template-columns:1fr 1fr}.author{grid-column:1/-1}
+  .side-column{grid-template-columns:1fr 1fr}.author,.side-column .social-card,.side-column .whatsapp-card{grid-column:1/-1}
   .contact-row{grid-template-columns:1fr}
 }
 @media(max-width:720px){
