@@ -32,8 +32,7 @@ body{
 .brand{display:flex;align-items:center;gap:17px;min-width:0}
 .tn-logo{width:135px;height:135px;object-fit:cover;border-radius:50%;box-shadow:0 0 25px rgba(0,205,255,.26)}
 .brand-copy{min-width:0}
-.wordmark-crop{position:relative;width:520px;max-width:52vw;height:73px;overflow:hidden}
-.wordmark-crop img{position:absolute;top:0;left:-89px;width:1275px;max-width:none;height:auto}
+.technoscan-wordmark{display:block;width:520px;max-width:52vw;height:auto}
 .brand-copy p{margin:2px 0 0;font-size:17px}
 .slogan{margin:0 18px 0 0;font-size:clamp(24px,2.25vw,34px);font-style:italic;font-weight:650;line-height:1.08;text-align:center;text-shadow:0 2px 9px #000;transform:rotate(-2deg)}
 .slogan::after{display:block;content:"";width:125px;height:4px;margin:9px auto 0;border-radius:50%;background:var(--cyan);box-shadow:0 0 12px rgba(17,215,255,.7)}
@@ -132,8 +131,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:14px;padding:8px 0}
   :root{--wrap:min(94vw,780px)}
   .site-header,.header-inner{min-height:165px}
   .tn-logo{width:100px;height:100px}
-  .wordmark-crop{width:420px;max-width:55vw;height:60px}
-  .wordmark-crop img{left:-74px;width:1065px}
+  .technoscan-wordmark{width:420px;max-width:55vw}
   .brand-copy p{font-size:13px}.slogan{font-size:22px;margin-right:0}
   .features{grid-template-columns:repeat(2,1fr)}
   .features article{border-bottom:1px solid rgba(17,215,255,.18)}
@@ -147,8 +145,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:14px;padding:8px 0}
 @media(max-width:720px){
   .header-inner{display:block;padding:11px 0 8px;text-align:center}
   .brand{justify-content:center;gap:9px}.tn-logo{width:74px;height:74px}
-  .wordmark-crop{width:330px;max-width:68vw;height:47px}
-  .wordmark-crop img{left:-58px;width:840px}
+  .technoscan-wordmark{width:330px;max-width:68vw}
   .brand-copy p{font-size:10px;text-align:left}.slogan{margin:8px 0 0;font-size:17px}.slogan br{display:none}
   .download-button{width:100%;font-size:21px;min-height:54px}.download-button svg{width:26px}
   .badges span{min-width:0;font-size:10px}
@@ -162,6 +159,6 @@ footer .wrap{display:flex;justify-content:space-between;gap:14px;padding:8px 0}
 }
 @media(max-width:430px){
   .features{grid-template-columns:1fr}.features article:last-child{grid-column:auto}
-  .wordmark-crop{width:240px;height:35px}.wordmark-crop img{left:-42px;width:610px}.brand-copy p{font-size:8px}
+  .technoscan-wordmark{width:240px}.brand-copy p{font-size:8px}
   .download-button{font-size:18px;gap:8px}.social-card a>span:last-child{font-size:7px}
 }
