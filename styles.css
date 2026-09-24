@@ -21,19 +21,19 @@ body{
     var(--bg);
 }
 .wrap{width:var(--wrap);margin:auto}
-.site-header{position:relative;min-height:178px;overflow:hidden;border-bottom:1px solid rgba(17,215,255,.35);background:#010712}
+.site-header{position:relative;min-height:158px;overflow:hidden;border-bottom:1px solid rgba(17,215,255,.35);background:#010712}
 .city-strip{
   position:absolute;inset:0;
   background:
     linear-gradient(90deg,#010712 0%,rgba(1,7,18,.96) 35%,rgba(1,8,18,.2) 67%,rgba(1,8,18,.04)),
     url("https://raw.githubusercontent.com/TecnoNeuquen696/TecnoCAM-Descargas/main/assets/city-night.png") 74% 54%/cover no-repeat;
 }
-.header-inner{position:relative;z-index:1;min-height:178px;display:flex;align-items:center;justify-content:space-between;gap:24px}
+.header-inner{position:relative;z-index:1;min-height:158px;display:flex;align-items:center;justify-content:space-between;gap:24px}
 .brand{display:flex;align-items:center;gap:17px;min-width:0}
-.tn-logo{width:135px;height:135px;object-fit:cover;border-radius:50%;box-shadow:0 0 25px rgba(0,205,255,.26)}
+.tn-logo{width:118px;height:118px;object-fit:cover;border-radius:50%;box-shadow:0 0 25px rgba(0,205,255,.26)}
 .brand-copy{min-width:0}
-.technoscan-wordmark{display:block;width:520px;max-width:52vw;height:auto}
-.brand-copy p{margin:2px 0 0;font-size:17px}
+.technoscan-wordmark{display:block;width:470px;max-width:50vw;height:auto}
+.brand-copy p{margin:1px 0 0;font-size:15px}
 .slogan{margin:0 18px 0 0;font-size:clamp(24px,2.25vw,34px);font-style:italic;font-weight:650;line-height:1.08;text-align:center;text-shadow:0 2px 9px #000;transform:rotate(-2deg)}
 .slogan::after{display:block;content:"";width:125px;height:4px;margin:9px auto 0;border-radius:50%;background:var(--cyan);box-shadow:0 0 12px rgba(17,215,255,.7)}
 
@@ -83,24 +83,24 @@ body{
 .window-bar strong{margin-left:auto;margin-right:auto;color:#91cde2;font-size:9px;font-weight:500;letter-spacing:.04em}
 .preview-shell img{display:block;width:100%;height:auto;border-radius:8px}
 .laptop-base{position:relative;width:91%;height:9px;margin:-1px 0 0 auto;border-radius:2px 2px 10px 10px;background:linear-gradient(180deg,#d9e0e4,#75818a 27%,#25313a 61%,#080d12);box-shadow:0 7px 12px rgba(0,0,0,.62)}
-.side-column{display:grid;gap:7px}
+.side-column{display:grid;gap:6px;width:94%;justify-self:end}
 .card{border:1px solid var(--line);border-radius:13px;background:linear-gradient(145deg,rgba(5,30,49,.96),rgba(1,12,23,.98));box-shadow:inset 0 1px 0 rgba(255,255,255,.035),0 8px 18px rgba(0,0,0,.27)}
-.trust{display:grid;grid-template-columns:58px minmax(0,1fr) auto;align-items:center;gap:9px;min-height:84px;padding:9px 12px}
-.shield-3d{display:grid;place-items:center;width:54px;height:60px;color:#22efd2;filter:drop-shadow(0 0 9px rgba(34,239,210,.62))}
-.shield-3d svg{width:50px;height:58px;fill:rgba(10,178,163,.25);stroke:currentColor;stroke-width:4;stroke-linecap:round;stroke-linejoin:round}
-.card-copy h2{margin:0 0 2px;font-size:14px}
+.trust{display:grid;grid-template-columns:52px minmax(0,1fr) auto;align-items:center;gap:8px;min-height:76px;padding:7px 10px}
+.shield-3d{display:grid;place-items:center;width:48px;height:54px;color:#22efd2;filter:drop-shadow(0 0 9px rgba(34,239,210,.62))}
+.shield-3d svg{width:44px;height:52px;fill:rgba(10,178,163,.25);stroke:currentColor;stroke-width:4;stroke-linecap:round;stroke-linejoin:round}
+.card-copy h2{margin:0 0 2px;font-size:13px}
 .card-copy p{margin:0 0 2px}.card-copy small{color:var(--muted);font-size:10px}
 .card-copy a{color:#29d8ff;font-size:11px;text-underline-offset:2px}
-.detection{color:#33ef7d;font-size:13px;font-weight:800}
-.mini-action{padding:7px 10px;border:1px solid #20d8ff;border-radius:11px;color:#fff;background:linear-gradient(180deg,#0d5b86,#07324e);box-shadow:0 0 11px rgba(17,215,255,.25);font-size:11px;font-weight:700;text-decoration:none;white-space:nowrap}
-.compatibility{display:flex;align-items:center;gap:15px;min-height:69px;padding:8px 16px}
-.windows-logo{display:grid;grid-template-columns:repeat(2,21px);grid-template-rows:repeat(2,21px);gap:2px;transform:perspective(100px) rotateY(-10deg);filter:drop-shadow(0 0 7px rgba(0,174,255,.35))}
+.detection{color:#33ef7d;font-size:12px;font-weight:800}
+.mini-action{padding:6px 9px;border:1px solid #20d8ff;border-radius:11px;color:#fff;background:linear-gradient(180deg,#0d5b86,#07324e);box-shadow:0 0 11px rgba(17,215,255,.25);font-size:11px;font-weight:700;text-decoration:none;white-space:nowrap}
+.compatibility{display:flex;align-items:center;justify-content:center;gap:12px;min-height:62px;padding:6px 12px}
+.windows-logo{display:grid;grid-template-columns:repeat(2,19px);grid-template-rows:repeat(2,19px);gap:2px;transform:perspective(100px) rotateY(-10deg);filter:drop-shadow(0 0 7px rgba(0,174,255,.35))}
 .windows-logo i{display:block;background:linear-gradient(145deg,#11cfff,#0078d6)}
-.compatibility strong{font-size:18px}.compatibility h2{font-size:13px}.compatibility small{font-size:10px}
-.author{min-height:116px;padding:6px 12px 7px;text-align:center}
-.author img{display:block;width:min(238px,87%);height:auto;margin:0 auto -1px;filter:brightness(1.28) contrast(1.04) drop-shadow(0 0 2px rgba(235,245,255,.2))}
-.author .tn{margin:0 0 2px;color:var(--cyan);font-size:14px;font-weight:800;font-style:italic}
-.author p:last-child{margin:0;font-size:10px;line-height:1.2}
+.compatibility .card-copy{display:flex;flex-direction:column;justify-content:center}.compatibility strong{font-size:16px}.compatibility h2{font-size:12px}.compatibility small{font-size:9px}
+.author{min-height:104px;padding:4px 10px 5px;text-align:center}
+.author img{display:block;width:min(210px,84%);height:auto;margin:0 auto -1px;filter:brightness(1.28) contrast(1.04) drop-shadow(0 0 2px rgba(235,245,255,.2))}
+.author .tn{margin:0 0 2px;color:var(--cyan);font-size:13px;font-weight:800;font-style:italic}
+.author p:last-child{margin:0;font-size:9.5px;line-height:1.2}
 
 .steps{margin-top:8px;padding:8px 12px;border:1px solid var(--line);border-radius:13px;background:linear-gradient(145deg,rgba(4,26,43,.95),rgba(1,12,23,.97))}
 .steps h2{margin:0 0 7px;color:var(--cyan);font-size:15px}.steps h2 span{font-size:.86em}
@@ -129,9 +129,9 @@ footer .wrap{display:flex;justify-content:space-between;gap:14px;padding:8px 0}
 
 @media(max-width:980px){
   :root{--wrap:min(94vw,780px)}
-  .site-header,.header-inner{min-height:165px}
+  .site-header,.header-inner{min-height:150px}
   .tn-logo{width:100px;height:100px}
-  .technoscan-wordmark{width:420px;max-width:55vw}
+  .technoscan-wordmark{width:390px;max-width:55vw}
   .brand-copy p{font-size:13px}.slogan{font-size:22px;margin-right:0}
   .features{grid-template-columns:repeat(2,1fr)}
   .features article{border-bottom:1px solid rgba(17,215,255,.18)}
